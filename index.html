@@ -6,162 +6,164 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Casa corp</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/small-business.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="bg-light border-top navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
-      <a class="navbar-brand"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
+          <li class="nav-item active border-bottom">
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Media</a>
+            <a class="nav-link" href="#about-us">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#media">Media</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-
-
   <!-- Page Content -->
   <div class="container">
-    <div class="align-center d-flex justify-content-center">
-      <div class="font-weight-bold">Casa Corp Logo</div>
-    </div>
 
-    <!-- Heading Row -->
-    <div class="row justify-content-center my-5">
-      <div class="col-lg-7">
-        <h3 class="text-center">Backdrop placeholder</h3>
-        <img class="img-fluid rounded mb-4 mb-lg-0" src="http://placehold.it/900x400" alt="">
+    <section id="home">
+      <div class="d-flex justify-content-center align-content-center">
+        <img src="/assets/images/logo.png" width="500" height="500" alt="">
       </div>
+    </section>
+
+<!--     Heading Row-->
+<!--    <div class="row justify-content-center my-5">-->
+<!--      <div class="col-lg-7">-->
+<!--        <h3 class="text-center">Backdrop placeholder</h3>-->
+<!--        <img class="img-fluid rounded mb-4 mb-lg-0" src="http://placehold.it/900x400" alt="">-->
+<!--      </div>-->
 <!--      <div class="col-lg-5">-->
 <!--        <h1 class="font-weight-light">Business Name or Tagline</h1>-->
 <!--        <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>-->
 <!--        <a class="btn btn-primary" href="#">Call to Action!</a>-->
 <!--      </div>-->
-    </div>
+<!--    </div>-->
 
-    <div class="my-5">
-      <form>
-        <div class="form-row justify-content-center">
-          <h3 class="text-center mb-5">LET US LEARN MORE ABOUT YOU AND YOUR PROPERTY</h3>
-          <div class="form-group col-md-12 col-lg-6 text-center">
-            <input type="text" class="form-control" id="full-name">
-            <label class="font-weight-bold" for="full-name">NAME & LAST NAME</label>
+    <section class="my-5" id="contact" style="background-color: #edeaec;">
+        <form class="p-5">
+          <div class="form-row justify-content-center">
+            <h3 class="text-center mb-5" style="color: #e8c6a2;">LET US LEARN MORE ABOUT YOU AND YOUR PROPERTY</h3>
+            <div class="form-group col-md-12 col-lg-6 text-center">
+              <input type="text" class="form-control" id="full-name">
+              <label class="font-weight-bold" for="full-name">NAME & LAST NAME</label>
+            </div>
           </div>
-        </div>
 
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 col-lg-6 text-center">
-            <input type="text" class="form-control" id="address">
-            <label class="font-weight-bold" for="address">PROPERTY ADDRESS</label>
+          <div class="form-row justify-content-center">
+            <div class="form-group col-md-12 col-lg-6 text-center">
+              <input type="text" class="form-control" id="address">
+              <label class="font-weight-bold" for="address">PROPERTY ADDRESS</label>
+            </div>
           </div>
-        </div>
 
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 col-lg-6 text-center">
+          <div class="form-row justify-content-center">
+            <div class="form-group col-md-12 col-lg-6 text-center">
               <input type="text" class="form-control" id="phone">
-            <label class="font-weight-bold" for="phone">PHONE NUMBER</label>
+              <label class="font-weight-bold" for="phone">PHONE NUMBER</label>
+            </div>
+          </div>
+
+          <div class="form-row justify-content-center">
+            <div class="form-group col-md-12 col-lg-6 text-center">
+              <input type="text" class="form-control" id="email">
+              <label class="font-weight-bold" for="email">EMAIL</label>
+            </div>
+          </div>
+
+          <div class="form-row justify-content-center">
+            <div class="form-group col-md-12 col-lg-6 text-center">
+              <input type="text" class="form-control" id="asking-price">
+              <label class="font-weight-bold" for="asking-price">ASKING PRICE</label>
+            </div>
+          </div>
+
+          <div class="form-row justify-content-center">
+            <div class="form-group col-md-12 col-lg-6 text-center">
+              <input type="text" class="form-control" id="reason">
+              <label class="font-weight-bold" for="reason">REASON (OPTIONAL)</label>
+            </div>
+          </div>
+        </form>
+
+      <div class="row justify-content-center">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+
+    </section>
+
+    <section id="about-us">
+      <h2 class="text-center">About Us</h2>
+
+      <div class="row mt-4">
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Person One</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+            </div>
+            <div class="card-footer">
+              footer
+            </div>
           </div>
         </div>
-
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 col-lg-6 text-center">
-            <input type="text" class="form-control" id="email">
-            <label class="font-weight-bold" for="email">EMAIL</label>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Person Two</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+            </div>
+            <div class="card-footer">
+              footer
+            </div>
           </div>
         </div>
-
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 col-lg-6 text-center">
-            <input type="text" class="form-control" id="asking-price">
-            <label class="font-weight-bold" for="asking-price">ASKING PRICE</label>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-5">
+          <div class="card h-100">
+            <div class="card-body">
+              <h2 class="card-title">Person Three</h2>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+            </div>
+            <div class="card-footer">
+              footer
+            </div>
           </div>
         </div>
+        <!-- /.col-md-4 -->
 
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 col-lg-6 text-center">
-            <input type="text" class="form-control" id="reason">
-            <label class="font-weight-bold" for="reason">REASON (OPTIONAL)</label>
-          </div>
-        </div>
-      </form>
-
-      <button type="submit" class="btn btn-primary">Submit</button>
-
-    </div>
-
-<!--    &lt;!&ndash; Call to Action Well &ndash;&gt;-->
-<!--    <div class="card text-white bg-secondary my-5 py-4 text-center">-->
-<!--      <div class="card-body">-->
-<!--        <p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p>-->
-<!--      </div>-->
-<!--    </div>-->
-
-    <!-- Content Row -->
-<!--    <div class="row">-->
-<!--      <div class="col-md-4 mb-5">-->
-<!--        <div class="card h-100">-->
-<!--          <div class="card-body">-->
-<!--            <h2 class="card-title">Card One</h2>-->
-<!--            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>-->
-<!--          </div>-->
-<!--          <div class="card-footer">-->
-<!--            <a href="#" class="btn btn-primary btn-sm">More Info</a>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      &lt;!&ndash; /.col-md-4 &ndash;&gt;-->
-<!--      <div class="col-md-4 mb-5">-->
-<!--        <div class="card h-100">-->
-<!--          <div class="card-body">-->
-<!--            <h2 class="card-title">Card Two</h2>-->
-<!--            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>-->
-<!--          </div>-->
-<!--          <div class="card-footer">-->
-<!--            <a href="#" class="btn btn-primary btn-sm">More Info</a>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      &lt;!&ndash; /.col-md-4 &ndash;&gt;-->
-<!--      <div class="col-md-4 mb-5">-->
-<!--        <div class="card h-100">-->
-<!--          <div class="card-body">-->
-<!--            <h2 class="card-title">Card Three</h2>-->
-<!--            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>-->
-<!--          </div>-->
-<!--          <div class="card-footer">-->
-<!--            <a href="#" class="btn btn-primary btn-sm">More Info</a>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      &lt;!&ndash; /.col-md-4 &ndash;&gt;-->
-
-<!--    </div>-->
-    <!-- /.row -->
-
-    <h2 class="text-center">About Us</h2>
-    <div class="row">
-      <p>We arekajfkjdkfjdksa'jf</p>
-    </div>
+      </div>
+    </section>
 
   </div>
 
@@ -175,7 +177,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  <script src="js/app.js"></script>
 </body>
 
 </html>
