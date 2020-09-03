@@ -20,8 +20,17 @@ textarea {
   resize: none;
 }
 
+.scroll-to-section {
+  padding-top: 56px;
+}
+
 .social-icon-button {
   text-decoration: none;
   color: black;
   font-size: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }

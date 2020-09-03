@@ -13,3 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 }); // end of dom content loaded
+
+function sendEmail() {
+    let subject = "This is a test subject";
+    let body = "This is a test body";
+    window.open(`mailto:test@example.com?subject=${subject}&body=${body}`);
+}
