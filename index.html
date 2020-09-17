@@ -7,11 +7,6 @@
   <meta name="author" content="Casa Corp">
   <title>Casa corp</title>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/assets/favicon/site.webmanifest">
-
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/405f035cb5.js" crossorigin="anonymous"></script>
   <!-- Fonts -->
@@ -50,87 +45,95 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
-
+  <!-- Home screen logo splash -->
     <section class="align-items-center d-flex justify-content-center min-vh-100" id="home">
       <div>
         <img src="/assets/images/logo.png" class="img-fluid" style="max-height: 900px;" alt="">
       </div>
     </section>
 
-    <section>
-      <div class="row justify-content-center my-5">
-        <div class="col-lg-7">
-          <img class="img-fluid rounded mb-4 mb-lg-0" src="/assets/images/we-buy-houses-text.png" alt="">
-        </div>
-        <div class="col-lg-5">
-          <h1 class="font-weight-light">Our Promise</h1>
-          <p>Casa Corp is A FAMILY BASED COMPANY LOCATED IN WINDSOR, ONTARIO. WE DEDICATE OUR TIME IN HELPING PROPERTY OWNERS WHO FIND THEMSELVES IN DIFFERENT SITUATIONS AND NEED TO SELL THEIR HOME. WE BUY HOUSES FOR CASH IN ANY CONDITION, WITH NO OBLIGATIONS, NO FEES, NO COMMISSION AND WORK WITH YOUR TIME FRAME.
-            CONTACT US IF YOU NEED OUR HELP.</p>
+    <section class="py-5" id="contact-us-section">
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap">
+          <!-- left side -->
+          <!-- Remember its flex column so its opposite -->
+          <div class="col-lg-8 d-flex flex-column justify-content-around">
+            <div class="d-flex offset-md-1">
+              <div class="pb-3 pt-4 px-2 black-opaque-bg">
+                <h1 class="mb-0 text-center">SELL YOUR HOME FOR CASH.</h1>
+                <p class="m-0 text-center">Follow our quick and simple process</p>
+              </div>
+            </div>
+            <div class="offset-md-1">
+              <button class="btn px-5 py-3 col-lg-4 rounded-lg" style="background-color: black; color: #edeaec; font-size: 24px">Call 519-259-9582</button>
+            </div>
+          </div>
+
+          <!-- Right side -->
+          <div class="col-lg-4">
+            <form style="background-color: #edeaec;" class="p-5">
+              <h3 class="text-center mb-5">LET US LEARN MORE ABOUT YOU AND YOUR PROPERTY</h3>
+              <div class="form-row justify-content-center">
+                <div class="form-group col-md-12 text-center">
+                  <input type="text" class="form-control" id="full-name">
+                  <label class="font-weight-bold" for="full-name">NAME & LAST NAME</label>
+                </div>
+              </div>
+
+              <div class="form-row justify-content-center">
+                <div class="form-group col-md-12 text-center">
+                  <input type="text" class="form-control" id="address">
+                  <label class="font-weight-bold" for="address">PROPERTY ADDRESS</label>
+                </div>
+              </div>
+
+              <div class="form-row justify-content-center">
+                <div class="form-group col-md-12 text-center">
+                  <input type="text" class="form-control" id="phone">
+                  <label class="font-weight-bold" for="phone">PHONE NUMBER</label>
+                </div>
+              </div>
+
+              <div class="form-row justify-content-center">
+                <div class="form-group col-md-12 text-center">
+                  <input type="text" class="form-control" id="email">
+                  <label class="font-weight-bold" for="email">EMAIL</label>
+                </div>
+              </div>
+
+              <div class="form-row justify-content-center">
+                <div class="form-group col-md-12 text-center">
+                  <input type="text" class="form-control" id="asking-price">
+                  <label class="font-weight-bold" for="asking-price">ASKING PRICE</label>
+                </div>
+              </div>
+
+              <div class="form-row justify-content-center">
+                <div class="form-group col-md-12 text-center">
+                  <label for="exampleFormControlTextarea1">REASON (OPTIONAL)</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+
+              <div class="form-row justify-content-center">
+                <div class="form-group text-center">
+                  <button onclick="sendEmail()" type="button" class="btn btn-light">Submit</button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <section class="min-vh-100 scroll-to-section" id="contact" >
-      <form style="background-color: #edeaec;" class="col-lg-6 col-md-12 mx-auto p-5">
-        <h3 class="text-center mb-5">LET US LEARN MORE<br>ABOUT YOU AND<br>YOUR PROPERTY</h3>
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 text-center">
-            <input type="text" class="form-control" id="full-name">
-            <label class="font-weight-bold" for="full-name">NAME & LAST NAME</label>
-          </div>
-        </div>
-
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 text-center">
-            <input type="text" class="form-control" id="address">
-            <label class="font-weight-bold" for="address">PROPERTY ADDRESS</label>
-          </div>
-        </div>
-
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 text-center">
-            <input type="text" class="form-control" id="phone">
-            <label class="font-weight-bold" for="phone">PHONE NUMBER</label>
-          </div>
-        </div>
-
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 text-center">
-            <input type="text" class="form-control" id="email">
-            <label class="font-weight-bold" for="email">EMAIL</label>
-          </div>
-        </div>
-
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 text-center">
-            <input type="text" class="form-control" id="asking-price">
-            <label class="font-weight-bold" for="asking-price">ASKING PRICE</label>
-          </div>
-        </div>
-
-        <div class="form-row justify-content-center">
-          <div class="form-group col-md-12 text-center">
-            <label for="exampleFormControlTextarea1">REASON (OPTIONAL)</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        </div>
-
-        <div class="form-row justify-content-center">
-          <div class="form-group text-center">
-            <button onclick="sendEmail()" type="button" class="btn btn-light">Submit</button>
-          </div>
-        </div>
-
-      </form>
-
-    </section>
-
-  </div>
-
   <!-- Footer -->
-  <footer class="bg-light py-4">
+  <footer class="bg-bl py-4">
     <div class="container">
+      <div class="row justify-content-center">
+        <button class="btn px-5 py-3 col-lg-4 rounded-lg grey-opaque-bg" style="color: #edeaec; font-size: 24px">GET A CASH OFFER</button>
+      </div>
       <div class="row">
         <div class="offset-md-8 col-md-4 text-center py-1">
           <a class="social-icon-button" href="https://www.instagram.com/casacorprealestate/"><i class="fab fa-instagram"></i></a>
