@@ -50,6 +50,14 @@ footer {
     background-color: rgba(73, 68, 71, 0.6)
 }
 
+.section-header-box {
+  padding: 1.75rem 4rem 1.75rem 4rem;
+  border: solid black 6px;
+  font-weight: bolder;
+}
+
 #contact-us-section {
     background-image: url("/assets/images/contact-us-section-bg.png");
+    background-repeat: no-repeat;
 }
+
