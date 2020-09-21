@@ -15,7 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
 }); // end of dom content loaded
 
 function sendEmail() {
-    let subject = "This is a test subject";
-    let body = "This is a test body";
+    let fullName = document.getElementById('full-name').value ?? "No full name entered";
+    let address = document.getElementById('address').value ?? "No address entered";
+    let phone = document.getElementById('phone').value ?? "No phone entered";
+    let email = document.getElementById('email').value ?? "No email entered";
+    let askingPrice = document.getElementById('asking-price').value ?? "No asking price entered";
+    let reason = document.getElementById('reason').value ?? "No reason entered";
+
+    let subject = `${fullName}, ${address}`;
+    let body = `Full name: ${fullName} <br/> address: ${address} <br/> phone: ${phone} <br/> email: ${email} <br/> asking: ${askingPrice} <br/> reason: ${reason}`;
     window.open(`mailto:test@example.com?subject=${subject}&body=${body}`);
 }
