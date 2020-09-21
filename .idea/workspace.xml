@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e319396e-a227-4e11-9043-72ee4e091d95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/contact-us-section-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/our-simple-process/call-us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/our-simple-process/choose-date.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/what-sets-us-apart/facing-foreclosure.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/carousel-images/Off White and Black SWOT Analysis Chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/carousel-images/Our SImple Process.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/carousel-images/WE BUY HOUSES.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo-roof.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/we-buy-houses-text.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,17 +44,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\code\casacorp\assets\images\what-sets-us-apart" />
+      <recent name="C:\Users\jmoore\Code\casacorp\assets\favicon" />
+      <recent name="C:\Users\jmoore\Code\casacorp\assets\images" />
+      <recent name="C:\Users\jmoore\Code\casacorp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\code\casacorp\assets\images\what-sets-us-apart" />
+      <recent name="C:\Users\Administrator\code\casacorp\assets\images\our-simple-process" />
       <recent name="C:\Users\jmoore\Code\casacorp\assets\favicon" />
       <recent name="C:\Users\jmoore\Code\casacorp\assets\images" />
       <recent name="C:\Users\jmoore\Code\casacorp\assets\images\carousel-images" />
-      <recent name="C:\Users\jmoore\Code\casacorp" />
-      <recent name="C:\Users\jmoore\Code\casacorp\assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jmoore\Code\casacorp\assets\favicon" />
-      <recent name="C:\Users\jmoore\Code\casacorp\assets\images" />
-      <recent name="C:\Users\jmoore\Code\casacorp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,11 +78,21 @@
       <workItem from="1600302065909" duration="8071000" />
       <workItem from="1600346945090" duration="183000" />
       <workItem from="1600349327545" duration="4904000" />
-      <workItem from="1600473408781" duration="1254000" />
+      <workItem from="1600473408781" duration="1466000" />
+      <workItem from="1600539464663" duration="12000" />
+      <workItem from="1600552523675" duration="2460000" />
+      <workItem from="1600609796654" duration="86000" />
+      <workItem from="1600716250287" duration="669000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600609880645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600609880645" />
   </component>
 </project>
