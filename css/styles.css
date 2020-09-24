@@ -76,6 +76,7 @@ footer {
 }
 
 #contact-us-section {
-    background-image: url("/assets/images/contact-us-section-bg.png") ;
+    background-image: url("/assets/images/contact-us-section-bg.png");
+    background-size: cover;
 }
 

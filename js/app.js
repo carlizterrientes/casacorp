@@ -23,6 +23,6 @@ function sendEmail() {
     let reason = document.getElementById('reason').value ?? "No reason entered";
 
     let subject = `${fullName}, ${address}`;
-    let body = `Full name: ${fullName} <br/> address: ${address} <br/> phone: ${phone} <br/> email: ${email} <br/> asking: ${askingPrice} <br/> reason: ${reason}`;
-    window.open(`mailto:test@example.com?subject=${subject}&body=${body}`);
+    let body = `Full name: ${fullName}%0D%0AAddress: ${address}%0D%0APhone: ${phone}%0D%0AEmail: ${email}%0D%0AAsking: ${askingPrice}%0D%0AReason: ${reason}`;
+    window.open(`mailto:info@casacorp.ca?subject=${subject}&body=${body}`);
 }
